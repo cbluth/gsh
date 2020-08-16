@@ -21,7 +21,6 @@ $ gsh copy file sshrc -n demo1 dst=/etc/sshrc chmod=a+rx
 ║ File └──────────╮
 ╿ Name  :  Labels
 └ sshrc : scope=host target=demo1 dst=/etc/sshrc chmod=a+rx
-2020/08/10 17:06:42 
 ```
 ```bash
 $ # copying a file to group
@@ -30,5 +29,4 @@ $ gsh copy file nginx.conf -g group1 dst=/etc/nginx/nginx.conf
 ║ File └──────────╮
 ╿ Name  :  Labels
 └ nginx.conf : scope=group target=group1 dst=/etc/nginx/nginx.conf
-2020/08/10 17:06:42 
 ```
