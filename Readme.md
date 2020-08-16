@@ -10,6 +10,8 @@ This should work on any linux host, like your workstation. Mac os builds are bei
 Access to some ssh servers is needed to use all the features of `gsh`. Currently only bash is supported, with plans for more languages.
 
 ### Installation
+You can download the latest release here: https://github.com/cbluth/gsh/releases <br />
+Or use these options:
 
 #### A) Use Go Install
 To build with go install:
@@ -51,6 +53,12 @@ This is a new project, with lots of issues, if you see any bugs, please report t
 
 To hack on this project, git clone to anywhere, and edit the code directly.
 After applying edits to the codebase, you can use `./gsh.sh` to compile and run `gsh` via go, with the same arguments as running the program normally; eg: `./gsh.sh make host dev0 address=dev0.local`
+
+## TODO
+- Implement `copy` feature
+- Cleanup orphaned files/scripts in ~/.gsh
+- Implement `sudo=true` feature for scripts
+- Support other languages like python, nodejs, and ruby
 
 ## License
 

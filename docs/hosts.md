@@ -41,6 +41,15 @@ $ gsh make host dev0 address=dev0.local develop=true project=bar
 └ dev0 : address=dev0.local develop=true project=bar
 ```
 ```bash
+$ # showing hosts with a label
+$ gsh show hosts demo=true
+╔═══════╕ Total: 2
+║ Hosts └─────────╮
+╿ Name  :  Labels
+├ demo2 : address=demo2.local demo=true
+└ demo3 : address=demo3.local demo=true
+```
+```bash
 $ # deleting a host
 $ gsh del host demo1
 ╔══════╕ Deleted!
