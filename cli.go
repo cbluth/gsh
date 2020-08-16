@@ -50,7 +50,7 @@ func cli() error {
 		}
 	default:
 		{
-			tmp()
+			help()
 		}
 	}
 	return nil
